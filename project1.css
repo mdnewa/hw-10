@@ -1,0 +1,230 @@
+/* common css codes start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin:auto;
+}
+.section_info{
+    text-align: center;
+}
+.section_info h1{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section_info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* common css codes end here */
+/* nav css codes start here */
+nav{
+    background-color: #02918c;
+}
+nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu{
+    width: 85%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu ul li a{
+    color: #fff;
+    font-size:12px;
+    font-weight:800;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    display: block;
+}
+.container .menu ul li:hover a{
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+/* nav css codes end here */
+/* banner codes start here */
+#banner{
+    background:url(images/MYFOLIO9.jpg);
+    height:726px ;
+    background-size:cover ;
+    background-position:center ; 
+    position: relative;
+    z-index: 1;
+}
+#banner .container{
+    height:726px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#banner .container .content img{
+    display:block;
+    margin: auto;
+}
+#banner .container .content h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner .container .content h1{
+    font-size: 68px;
+    font-weight: 800;
+    color: #fff;
+    text-transform:uppercase;
+    letter-spacing: 26px;
+    word-spacing: 50px;
+}
+#banner .container .content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner .container .content img{
+    margin-top: 50px;
+    margin-bottom: 57px;
+}
+#banner .container .content a{
+    font-size: 14px;
+    font-weight: 800;
+    color:#0b1016;
+    text-transform:uppercase;
+    padding-right:40px;
+    padding-left:43px;
+    padding-top:14px;
+    padding-bottom:19px;
+    background-color: #cfc91d;
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    height:100%;
+    width:100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 60%;
+    z-index: -1;
+}
+
+/* banner codes end here */
+/* about codes start here */
+#about{
+    padding: 85px 0;
+}
+#about .section_info p{
+    width: 877px;
+    margin: auto;
+}
+#about .container .section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .container .section_item{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #7e8287;
+    padding: 30px 50px;
+    margin-top: 70px;
+}
+#about .section_item h3{
+    margin-top:26px ;
+    margin-bottom:26px ;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#about .section_item p{
+    color: #7e8287;
+    font-size: 11px;
+}
+#about .container .section_item:last-child{
+    border: none;
+}
+.section_info .cprg{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+/* about codes end here */
+/* services codes start here */
+#service{
+    background:url(images/MYFOLIO21.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-top:67px ;
+    padding-bottom:67px ;
+}
+#service .container .inner_container{
+    width: 50%;
+}
+#service .container .inner_container .row .section_item{
+    width:50%;
+}
+#service .container .inner_container .section_info{
+    text-align: left;
+    margin-bottom: 57px;
+}
+#service .section_item h3{
+    margin-top:26px ;
+    margin-bottom:26px ;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#service .section_item p{
+    color: #7e8287;
+    font-size: 11px;
+    margin-bottom: 50px;
+}
+#service .section_item{
+    padding-right: 120px;
+}
+/* services codes end here */
+/* my work codes start here */
+#mywork .container .section_info p{
+    width: 682px;
+    margin:auto
+}
+#mywork .container{
+    margin-bottom: 74px;
+}
+#mywork .work_item{
+    width:25%;
+}
+#mywork .work_item img{
+    width: 100%;
+    display: block;
+}
+
+/* my work codes end here */
